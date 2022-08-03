@@ -1,0 +1,245 @@
+/* body{
+  display: flexbox;
+} */
+:root{
+  --primary-color:#e8c66f;
+  --secondary-color: #373b69;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .nav-link{
+  display: flex;
+} */
+
+/* *{
+  background-color: aquamarine;
+  box-sizing: border-box;
+} */
+
+.MoviePage a{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-left: 2%; */
+  /* margin: 2%; */
+  text-decoration: none;
+  /* background-color: red; */
+  min-height: 36rem;
+  max-height: 36rem;
+  /* margin-right: 2%; */
+}
+
+
+
+.myCards{
+  /* min-height: 10%;
+  max-height: 10%; */
+  /* margin-left: 10%;
+  margin-right: 10%; */
+
+  margin:5% ;
+  color: white;
+  /* background-color: blue; */
+  justify-content: center;
+  align-content: center;
+  box-shadow: 10px 15px 500px black;
+  border: none;
+
+}
+
+.myCards:hover{
+  /* display: inline-flex; */
+  /* margin-left: 2%; */
+  /* margin: 2%; */
+  text-decoration: none;
+  /* background-color:rgb(255, 255, 126); */
+  color: yellow;
+  /* scale: 125%; */
+  text-shadow:5px 10px 10px black ;
+  /* margin-right: 2%; */
+}
+
+
+
+.MoviePage{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: wrap;
+    background-color: var(--secondary-color);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+/* div{
+  background-color: aquamarine;
+} */
+
+.notfound{
+  text-shadow: 10px 15px 500px black;
+  /* box-shadow: 10px 15px 500px black; */
+  border: none;
+}
+
+/* .mynavbar{
+    background-color: lightgreen;
+
+} */
+
+/* .myCards3{
+  width :10rem;
+} */
+
+.myCards2{
+  text-decoration: none;
+  box-shadow:10px 15px 20px black  ;
+  border-color: #e8c66f;
+  /* min-height: fit-content;
+  max-height: fit-content; */
+}
+
+
+
+.myCards3:hover{
+  text-decoration: none;
+  color: white;
+  text-shadow:5px 10px 25px black ;
+}
+
+/* a,Link{
+  text-decoration: none;
+} */
+
+.removedec,Link{
+  text-decoration: dotted;
+}
+
+/* .AboutUs{ */
+  /* background-color: aqua; */
+/* } */
+
+
+.MoviePage2{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: wrap;
+    background-color: var(--secondary-color);
+    min-height: 100%;
+    height:110vh; 
+    /* height: stretch; */
+    
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+
+
+    /* overflow: auto; */
+}
+
+.love{
+  background-color: var(--secondary-color);
+  text-align: center;
+
+}
+
+.made-with-love{
+  color: beige;
+
+  background-color: var(--secondary-color);
+  text-align: center;
+  text-decoration: none;
+  /* height: 50vh; */
+  height: 100%;
+}
+
+.made-with-love a{
+  color: yellow;
+  text-decoration: none;
+  display: inline;
+  
+}
+
+.made-with-love a:hover{
+  color: yellow;
+  /* text-decoration: none; */
+}
+
+.aboutus{
+  text-align: center;
+  justify-content: center;
+  /* height: 100%; */
+  height:100vh;
+  /* height: 100%; */
+  /* background-color: var(--secondary-color); */
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.aboutus span{
+  color: var(--primary-color);
+}
+
+.aboutus h1{
+  color: yellow;
+}
+
+.techused{
+  /* bord */
+  width: 50%;
+  box-shadow:10px 10px 20px black  ;
+  border-radius: 19px 19px 19px 19px;
+-moz-border-radius: 19px 19px 19px 19px;
+-webkit-border-radius: 19px 19px 19px 19px;
+border: 2px solid #000000;
+/* -webkit-box-shadow: 9px 11px 63px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 11px 63px 5px rgba(0,0,0,0.75);
+box-shadow: 9px 11px 63px 5px rgba(0,0,0,0.75); */
+  /* border-radius: 20%; */
+}
+
